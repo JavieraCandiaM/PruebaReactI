@@ -1,0 +1,18 @@
+.container {
+    background-color: rgb(185, 136, 22, 0.5);
+  }
+  @keyframes scale {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.5);
+    }
+  }
+  
+  
+  .elemento-escalado {
+    animation: scale 2s ease-in-out infinite; 
+  }
+  
+    
